@@ -1,6 +1,6 @@
 # Trabalho Pratico 2 - Versão Final - Enduro - TecWeb 2023.1
 
-Versão Modificada - Jogo de Atari Enduro
+Versão Modificada - Jogo Enduro - Atari;
 
 Univesidade Federal do Ceará - Campus Sobral;
 
