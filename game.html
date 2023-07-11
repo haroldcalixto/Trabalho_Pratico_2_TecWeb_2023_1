@@ -1,0 +1,51 @@
+<!--
+    Trabalho Prático 2 - HTML/CSS/JS - 11/07/2023;
+    Disciplina: Tecnologias Web;
+    Professor: Fischer Ferreira;
+    Semestre: 2023.1;
+
+    Equipe:
+    Aluno: Harold Calixto de Albuquerque - Matrícula: 499735;
+    Aluno: Alexandre Gomes Camelo - Matrícula: 504315;
+    Aluno: Joaquim Walisson Portela de Sousa - Matrícula: 472152;
+
+    Projeto: Desenvolvimento do Jogo Racer Rush - Jogo de Corrida;
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Racer Rush - Jogo de Corrida</title>
+      <link rel="stylesheet" type="text/css" href="game.css">
+    </head>
+
+  <body>
+    <h1>Racer Rush</h1>
+
+    <!--Container principal com os elementos do jogo-->
+    <div id="game-container">
+      <div id="player"></div>
+    </div>
+
+    <!--Menu de Informações da Partida-->
+    <div id="pontos">Pontuação: 0</div>
+    <div id="velocidade">Velocidade: 0 Km/h</div>
+    <div id="vida">Vidas: 5</div>
+    <div id="game-over">GAME OVER</div>
+    <button id="restart-btn" onclick="iniciarJogo()">Restart</button>
+
+    <div id="menu">
+    <h1>Menu de Seleção de Cenário</h1>
+      <button id="cenario1" class="button-scene" onclick="cenario(0)">Cenário Dia</button>
+      <button id="cenario2" class="button-scene" onclick="cenario(1)">Cenário Noite</button>
+      <button id="cenario3" class="button-scene" onclick="cenario(2)">Cenário Neve</button>
+      <button id="cenario4" class="button-scene" onclick="cenario(3)">Cenário Cerração</button>
+    </div>
+
+    <!--Link com o Arquivo JS-->
+    <script src="game.js"></script>
+  </body>
+</html>
