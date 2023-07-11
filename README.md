@@ -1,4 +1,4 @@
-# Trabalho Pratico 2 - Versão Final - Enduro - TecWeb 2023.1
+# Trabalho Pratico 2 - Versão Final - Racer Rush - TecWeb 2023.1
 
 Versão Modificada - Jogo Enduro - Atari;
 
